@@ -2,6 +2,8 @@ package String;
 //QS
 // https://leetcode.com/problems/remove-outermost-parentheses/
 
+import java.util.Stack;
+
 class Solution {
     public String removeOuterParentheses(String s) {
         Stack<Character> st=new Stack<>();
@@ -23,3 +25,5 @@ class Solution {
         return sb.toString();
    }
 }
+
+// If the stack isze is grater than 0 then only add to answer
