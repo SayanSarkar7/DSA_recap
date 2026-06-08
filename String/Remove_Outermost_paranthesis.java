@@ -1,3 +1,6 @@
+//QS
+// https://leetcode.com/problems/remove-outermost-parentheses/
+
 class Solution {
     public String removeOuterParentheses(String s) {
         Stack<Character> st=new Stack<>();
